@@ -5,7 +5,7 @@
 # pass flags to the build command and `artifact-name` to assign a name to
 # distinguish build outputs from each other:
 #
-# board: [ "nice_nano_v2" ]
+# board: [ "promicro_nrf52840" ]
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
@@ -18,7 +18,7 @@
 #
 ---
 include:
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: cygnus_left
-  - board: nice_nano_v2
+  - board: promicro_nrf52840
     shield: cygnus_right
